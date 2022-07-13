@@ -259,7 +259,7 @@ https://github.com/freeyourscience/infrastructure.git,terraform code for the Wis
 https://github.com/freeyourscience/infrastructure.git,terraform code for the Wissenschaftsbefreiungsfront,bill,https://github.com/freeyourscience/infrastructure/commit/abef03ad6e92a62681a1e00fb2dc9402073a6722,enable cloudbilling service #11,other-addition-billing,
 https://github.com/FXinnovation/fx-terraform-module-multi-template.git,Template repository for public terraform modules,bill,https://github.com/FXinnovation/fx-terraform-module-multi-template/commit/8b3a9993d15ebd2e6a1457a612e4ba9d7748fd0d,"fix: get rid of example disabled
 
-as discussed with @julien.cabillot, we don't need the 'disabled' example
+as discussed with @user  we don't need the 'disabled' example
 anymore.",other-false_positive,
 https://github.com/structurefall/jamulus-builder.git,NO README,cost,https://github.com/structurefall/jamulus-builder/commit/7190744187e0aed2df8ce84f2a944294d6d4fc5b,"Redid networking ton one subnet to eliminate costly NAT, added SSH in",cost-saving-networking-NAT,Neutral
 https://github.com/alphagov/govuk-aws.git,This is the code that deploys GOV.UK in AWS.,cost,https://github.com/alphagov/govuk-aws/commit/6a801ca187afd2066df0b9ab9e5c6afc4e01dd46,"Add lifecycle rules to database backups
@@ -949,8 +949,7 @@ Guidance to review
 The Lambdas are deployed on *.test.openregister.org so you can test the flow by POSTing to load-rsf in this environment.
 Note that a limitation of Origin Requests is that they have not been processed, so we trigger an invalidation request even if the POST is not accepted by ORJ. (This is a trade-off as intercepting at this point in the request-response cycle allows us to access the POST body which may be useful data for downstream consumers.
 
-Paired with @MatMoore
-
+Paired with @user 
 
 * add post logger WIP
 
@@ -9256,7 +9255,7 @@ https://github.com/bhfsystem/fogg.git,,cheap,https://github.com/bhfsystem/fogg/c
 This reverts commit 7cc487f270d553f819fea0cf96e872c374979305.",other-false_positive,
 https://github.com/cisagov/cool-assessment-terraform.git,Terraform to deploy an assessment environment to the COOL,efficient,https://github.com/cisagov/cool-assessment-terraform/commit/206d0cbbe3c5979a395edc655349274b20dc2a28,"Use more efficient for_each clause
 
-Thanks @jsf9k for the suggestion!
+Thanks @user for the suggestion!
 
 Co-authored-by: Shane Frasier <jeremy.frasier@trio.dhs.gov>",other-performance-unknown,
 https://github.com/cisagov/cool-assessment-terraform.git,,cheap,https://github.com/cisagov/cool-assessment-terraform/commit/3138943ab4d15cc256d322e1128862ef11383c73,"Upgrade all volume types to gp3
@@ -10877,7 +10876,7 @@ Previously, terraform was used to create a k8s cluster and run the blog on it. T
 
 - Adding terraform for DO App as a module
 - Adding terraform for updating/deploy the do app module
-- Adding DNS records for @smerc.dev and @smerc.io email aliases
+- Adding DNS records for @user and @user email aliases
 - Output & variables for the associated modules & infrastructure.",cost-saving-domain,
 https://github.com/rpnegro/diamond-dogs.git,Deploying with the CLI and Terraform Cloud,bill,https://github.com/rpnegro/diamond-dogs/commit/d9fc3ff53447c5fbbc702d3549167fd59e855367,adding new tag billing code,other-addition-billing,
 https://github.com/skyscrapr/terraform-cloudability-modules.git,Cloudability Terraform Modules,cost,https://github.com/skyscrapr/terraform-cloudability-modules/commit/3797a9ece15347419721579a2d4fe68c9e0a4f4f,added costcenter,other-addition-module,

@@ -13,7 +13,7 @@ https://github.com/coreos/tectonic-installer/issues/1132,make-update-payload.sh 
 ",pay,other-false_positive,
 https://github.com/coreos/tectonic-installer/issues/1552,Bootkube failed on startup with status=254 during install on AWS using existing VPC,"propagate_at_launch=true},{key=""expirationDate"",value=""2017-12-31"",propagate_at_launch=true}] tectonic_autoscaling_group_extra_tags = [ { key = "" billingcode value = ""ops"", propagate_at_launch = true } ] // Instance size for the etcd node(s). Example: `.
 ",bill,other-false_positive,
-https://github.com/coreos/tectonic-installer/issues/760,Docs: What am I building and what will it cost.,"up a demo environment. Could be helpful: https://docs.aws.amazon.com/ awsaccountbilling latest/aboutv2/price-changes.html @sym3tri that will be helpful, but without (.
+https://github.com/coreos/tectonic-installer/issues/760,Docs: What am I building and what will it cost.,"up a demo environment. Could be helpful: https://docs.aws.amazon.com/ awsaccountbilling latest/aboutv2/price-changes.html @user that will be helpful, but without (.
 Docs: What am I building and what will it cost Docs needs to describe clearly what is being built given the defaults.
 ",bill,other-addition-cost_calculator,
 https://github.com/coreos/tectonic-installer/issues/762,docs: Describe what components are impacted by tectonic updates,"it would be beneficial to name the components potentially impacted by [update payloads https://github.com/coreos/tectonic-installer/blob/master/modules/update-payload/payload..
@@ -92,7 +92,7 @@ https://github.com/zoitech/terraform-aws-saml/issues/15,role variables got remov
 https://github.com/clingen-data-model/architecture/issues/94,Review argo logging and adjust levels appropriately to save noise/cost,"Review argo logging and adjust levels appropriately to save noise/ cost closed via #96.
 ",cost,cost-saving-feature,Positive
 https://github.com/clingen-data-model/architecture/issues/95,Review recent costs in clingen GCP projects,"preemptible](https://cloud.google.com/compute/docs/instances/preemptible ) instances for dramatically cheaper but we'd need to make our app gracefully handle instance terminations/.
-Review recent costs in clingen GCP projects @larrybabb Looking like the huge majority of our.
+Review recent costs in clingen GCP projects @user Looking like the huge majority of our.
 ",cheap,cost-saving-instance,Positive
 https://github.com/clingen-data-model/architecture/issues/91,define roles that we currently need to facilitate current responsibilities,"three or four base categories here: * Owner -- anyone that needs access to billing and the ability to create IAM policies/roles/etc will need this..
 ",bill,other-false_positive,
@@ -106,7 +106,7 @@ https://github.com/digitalocean/Kubernetes-Starter-Kit-Developers/issues/71,Ques
 ",cost,"cost-awareness-storage, cost-awareness-instance",Neutral
 https://github.com/digitalocean/Kubernetes-Starter-Kit-Developers/issues/73,Create a cost dashboard in Grafana,"Create a cost dashboard in.
 ",cost,other-false_positive,
-https://github.com/DoSomething/infrastructure/issues/60,Simplify how we configure New Relic agent in Heroku.,"account so they hopefully won't count as new hosts in our billing cc: @mshmsh5000 We're almost definitely switching to their compute-based model,.
+https://github.com/DoSomething/infrastructure/issues/60,Simplify how we configure New Relic agent in Heroku.,"account so they hopefully won't count as new hosts in our billing cc: @user We're almost definitely switching to their compute-based model,.
 ",bill,other-false_positive,
 https://github.com/DoSomething/infrastructure/issues/129,"Experiment: Serverless GraphQL, with Terraform & CircleCI","techologies – Lambda and DynamoDB – to scale up and down transparently and only pay for what we use. I also wanted to take the opportunity to.
 ",pay,cost-saving-billing_mode,Positive
@@ -128,7 +128,7 @@ https://github.com/Geeks-Academy/terraform/issues/193,Set up cost allocation tag
 ",cost,other-addition-tags,
 https://github.com/Geeks-Academy/terraform/issues/225,Create bastion ASG,"will not be able to log in to server (no VPN connection - expensive service). Thus, we will create a ASG for creating EC2 instances on.
 ",expens,cost-awareness-networking-VPN,Negative
-https://github.com/Geeks-Academy/terraform/issues/199,Create a generic email account,"need email account connected to domain (geeks.academy) to use it for payment plans, social applications, AWS, DB cloud, firebase, Azure etc @bwieckow Any progress.
+https://github.com/Geeks-Academy/terraform/issues/199,Create a generic email account,"need email account connected to domain (geeks.academy) to use it for payment plans, social applications, AWS, DB cloud, firebase, Azure etc @user Any progress.
 ",pay,other-false_positive,
 https://github.com/ministryofjustice/cloud-platform-infrastructure/issues/499,Resize cluster worker nodes,"instead of r5.2xlarge, thereby saving $5,000/month in unnecessary hosting costs This has been done..
 ",cost,cost-saving-instance,Positive
@@ -352,7 +352,7 @@ https://github.com/bitraf/infrastructure/issues/12,heim: synchronize home direct
 ",cheap,cost-saving-storage,Positive
 https://github.com/bitraf/infrastructure/issues/6,heim user accounts,"p2k12.bitraf.no/passwd includes every member including those who have stopped paying the p2k12 passwd document can be converted into a format suitable for.
 ",pay,other-false_positive,
-https://github.com/sassoftware/viya4-iac-gcp/issues/79,exceeded quota: gke-resource-quotas when deploying on a GKE cluster created with the iac-gcp tool,"is set by the provider or imposed by SAS to help keep costs down. Hi @thpang according to the error message, it seems to be.
+https://github.com/sassoftware/viya4-iac-gcp/issues/79,exceeded quota: gke-resource-quotas when deploying on a GKE cluster created with the iac-gcp tool,"is set by the provider or imposed by SAS to help keep costs down. Hi @user according to the error message, it seems to be.
 ",cost,cost-awareness-provider,Negative
 https://github.com/wellcomecollection/goobi-infrastructure/issues/212,Expire objects in S3 export-bagit buckets where appropriate,"in S3 export-bagit buckets where appropriate In order to keep storage costs down and ensure that temporary storage does not grow indefinitely we should.
 ",cost,cost-saving-storage,Positive
@@ -383,7 +383,7 @@ https://github.com/Azure/sap-automation/issues/102,Add support for multi disk LU
 https://github.com/binbashar/terraform-aws-cost-budget/issues/4,case 8 count syntax wrong,"7, breaking case 8. case 7 (line 375): ``` count = ""${var.aws_sns_topic_arn == """" && var. cost_filters_service var.time_period_end == """" ? 1 : 0}"" ``` case 8 (line 436): ``` count = ""${var.aws_sns_topic_arn == """" && var..
 ",cost,other-bug_fix-vars,
 https://github.com/binbashar/terraform-aws-cost-budget/issues/5,amazon changed how budgets access sns,"SNS:Publish"", ""Resource"": ""your topic ARN"" }, ``` ref: https://docs.aws.amazon.com/ awsaccountbilling latest/aboutv2/budgets-sns-policy.html?ref_=pe_26274900_397507290 _However_ the default policy.
-the new 0.0.4 release (https://registry.terraform.io/modules/binbashar/ cost budget/aws/0.0.4) CC: @mpagnucco / @diego-ojeda-.
+the new 0.0.4 release (https://registry.terraform.io/modules/binbashar/ cost budget/aws/0.0.4) CC: @user / @diego-ojeda-.
 ",bill,other-false_positive,
 https://github.com/binbashar/terraform-aws-cost-budget/issues/14,Upgrade to terraform-docs > v0.9.x,"tf `0.12.x` Addressed in: https://github.com/binbashar/terraform-aws- cost budget/pull/.
 ",cost,other-false_positive,
@@ -499,7 +499,7 @@ https://github.com/terraform-google-modules/terraform-example-foundation/issues/
 ",bill,other-false_positive,
 https://github.com/terraform-google-modules/terraform-example-foundation/issues/265,1 - Org - Error creating project - Requested entity already exists,"into the error where there were to much projects linked to 1 billing account. We fixed that by requesting a higher quota. We then tried.
 ",bill,other-bug_fix-billing,
-https://github.com/terraform-google-modules/terraform-example-foundation/issues/258,[shascanner] LOG_NOT_EXPORTED detected,"further on the use case @amandakarina ? It seems like it will be costly unnecessary to export multiple copies of all logs? @rjerrems its part of.
+https://github.com/terraform-google-modules/terraform-example-foundation/issues/258,[shascanner] LOG_NOT_EXPORTED detected,"further on the use case @user ? It seems like it will be costly unnecessary to export multiple copies of all logs? @user its part of.
 ",cost,other-performance-unknown,
 https://github.com/terraform-google-modules/terraform-example-foundation/issues/235,Error: Error when reading or editing Resource  /  Error retrieving IAM policy,"the issues reproduced below. I'm running with org role/owner, projectAdmin, billingAdmin superuser. As it was a few days later, i'm not 100%.
 ",bill,other-false_positive,
@@ -513,7 +513,7 @@ https://github.com/terraform-google-modules/terraform-example-foundation/issues/
 ",bill,other-bug_fix-billing,
 https://github.com/terraform-google-modules/terraform-example-foundation/issues/376,How can I run a Terraform destroy via cloud build or cloud shell? ,"budget/outputs.tf line 19, in output ""name"": 19: value = var.create_budget ? google_billing_budget budget[0].name : """" |---------------- | google_billing_budget.budget is empty tuple The given key does.
 ",bill,other-false_positive,
-https://github.com/terraform-google-modules/terraform-example-foundation/issues/353,billingbudgets.googleapis.com is not enabled for infra-cicd deployment," billingbudgets googleapis.com is not enabled for infra-cicd deployment @bharathkkb During the.
+https://github.com/terraform-google-modules/terraform-example-foundation/issues/353,billingbudgets.googleapis.com is not enabled for infra-cicd deployment," billingbudgets googleapis.com is not enabled for infra-cicd deployment @user During the.
 ",bill,other-bug_fix-billing,
 https://github.com/terraform-google-modules/terraform-example-foundation/issues/306,ERROR: (gcloud.alpha.scc.notifications.create) INTERNAL: Internal error encountered.,"alpha.scc.notifications.create) INTERNAL: Internal error encountered. Error: Error updating Budget "" billingAccounts 01B01C-60BA4B-7EDE1D/budgets/4ed10829-c0d9-4aa6-8be9-0dbde66e13f4"": googleapi: Error 400:.
 ",bill,other-bug_fix-billing,
@@ -592,9 +592,9 @@ https://github.com/murphye/cheap-gke-cluster/issues/10,Can't pull images from ar
 ",cheap,other-false_positive,
 https://github.com/stelligent/config-lint/issues/214,error in homebrew-tap/Formula/mu-cli.rb to prevent installation with homebrew on MacOS,"alsa-lib cli11 httpx libirecovery numcpp podman snap usb.ids > borgbackup croc infracost libseccomp openfst prometheus-cpp sponge volk > castget dbdeployer inja localstack ormolu protoc-.
 ",cost,other-false_positive,
-https://github.com/18F/dns/issues/363,Document establishing a new top level DNS domain,"dotgov.gov (submit form w/ Program POC @self, admin POC @afeld, and billing POC @JJediny) - [ ] Explains how https://github.com/18F/dns/blob/master/get_zone..
+https://github.com/18F/dns/issues/363,Document establishing a new top level DNS domain,"dotgov.gov (submit form w/ Program POC @user  admin POC @user  and billing POC @JJediny) - [ ] Explains how https://github.com/18F/dns/blob/master/get_zone..
 ",bill,other-addition-billing,
-https://github.com/kube-hetzner/terraform-hcloud-kube-hetzner/issues/39,Control-plane-0 should be tainted with 'node-role.kubernetes.io/master=true:NoSchedule',"master node taints. As here we are talking about Hetzner and therefore cheap clusters I would agree with @mysticaltech that it is optional parameter depending.
+https://github.com/kube-hetzner/terraform-hcloud-kube-hetzner/issues/39,Control-plane-0 should be tainted with 'node-role.kubernetes.io/master=true:NoSchedule',"master node taints. As here we are talking about Hetzner and therefore cheap clusters I would agree with @user that it is optional parameter depending.
 ",cheap,cost-awareness-cluster,
 https://github.com/kube-hetzner/terraform-hcloud-kube-hetzner/issues/35,Migration from k3os to openSUSE MicroOS,"message-template-drain=Rebooting node %s # - --blocking-pod-selector=runtime=long,cost= expensive blocking-pod-selector=name=temperamental # - --blocking-pod-selector=... # - --reboot-days=sun,mon,.
 s # - --message-template-drain=Rebooting node %s # - --blocking-pod-selector=runtime=long, cost expensive # - --blocking-pod-selector=name=temperamental # - --blocking-pod-selector=... # - --reboot-days=sun,.
@@ -605,8 +605,8 @@ https://github.com/kube-hetzner/terraform-hcloud-kube-hetzner/issues/49,[FIXED] 
 ",efficient,other-performance-unknown,
 https://github.com/kube-hetzner/terraform-hcloud-kube-hetzner/issues/143,Control plane loadbalancer,"pay at least for an extra IP anyway, right? Might be much cheaper than a load-balancer. At least in financial terms, in terms of.
 as an LB instead of buying another LB service. It's not expensive either to buy but then again 3 nodes can already provide the.
-we can close the issue. @codeagencybe I assume you'd need to pay at least for an extra IP anyway, right? Might be much cheaper.
-2nd or 3rd one. This method does add 2 extra node as cost Thanks, folks, great ideas! @codeagencybe Will check the video ASAP. I have.
+we can close the issue. @user I assume you'd need to pay at least for an extra IP anyway, right? Might be much cheaper.
+2nd or 3rd one. This method does add 2 extra node as cost Thanks, folks, great ideas! @user Will check the video ASAP. I have.
 ",cheap,"cost-saving-domain, cost-awareness-domain",Positive
 https://github.com/kube-hetzner/terraform-hcloud-kube-hetzner/issues/166,[REQ] import into rancher,"LB, so removes the need for a Hetzner LB, hence dropping the cost even more). And now that we have support for Longhorn, we can.
 ",cost,cost-saving-cluster,Positive
@@ -776,7 +776,7 @@ https://github.com/akerl/aws-account/issues/14,handle billing sns without manual
 https://github.com/npalm/terraform-aws-gitlab-runner/issues/209,"Leftover instances, buggy startup and other docker-machine issues","that are configured but never used and never removed, bringing up the cost for our runners. I've seen many bug reports on gitlab of.
 ",cost,other-bug_fix-unknown,
 https://github.com/npalm/terraform-aws-gitlab-runner/issues/246,Support for multiple docker machines within a single runner instance,"can be made to this setup, yet it's a few times cheaper than defining each runner group separately. So I have a question regarding.
-for the agent running per team. @npalm To try to avoid such cost overhead mentioned by you, I created proposal PR which should enable some.
+for the agent running per team. @user To try to avoid such cost overhead mentioned by you, I created proposal PR which should enable some.
 ",cheap,cost-saving-instance,Positive
 https://github.com/npalm/terraform-aws-gitlab-runner/issues/245,Instance type recommendations,"CPUs and unrestricted EBS IO but they come at a significantly higher cost Or alternatively the SSD volumes of the i3.large may work better.
 ",cost,cost-awareness-instance,Negative
@@ -794,9 +794,9 @@ company, this is the easiest solution and makes the most sense to pay for such a
 ",cheap,cost-saving-feature,Positive
 https://github.com/npalm/terraform-aws-gitlab-runner/issues/394,Add a cost estimation for this module,"Add a cost estimation for this module Idea: To get an overview about the costs.
 ",cost,other-addition-cost_calculator,
-https://github.com/concourse/hush-house/issues/26,metrics: set up alerting,"means using Grafana for alerts in the short-term. Thoughts? cc @YoussB @ cirocosta scottietremendous sounds goood 😁 thankss! @taylorsilva - I agree with this. We have other.
+https://github.com/concourse/hush-house/issues/26,metrics: set up alerting,"means using Grafana for alerts in the short-term. Thoughts? cc @user @ cirocosta scottietremendous sounds goood 😁 thankss! @user - I agree with this. We have other.
 ",cost,cost-awareness-alert,Neutral
-https://github.com/concourse/hush-house/issues/27,Road to a supported installation,"Mailing List - [x] Set-up Wiki Thanks! --- cc @scottietremendous after talking to @ cirocosta this morning, the steps that we should take are as follows: - [x].
+https://github.com/concourse/hush-house/issues/27,Road to a supported installation,"Mailing List - [x] Set-up Wiki Thanks! --- cc @user after talking to @ cirocosta this morning, the steps that we should take are as follows: - [x].
 ",cost,other-false_positive,
 https://github.com/concourse/hush-house/issues/55,Move metrics Github to the Concourse org,"Move metrics Github to the Concourse org [updated by @ cirocosta When logging into `metrics-hush-house.concourse-ci.org` making use of.
 ",cost,other-false_positive,
@@ -805,7 +805,7 @@ https://github.com/concourse/hush-house/issues/56,metrics: increase prometheus r
 https://github.com/concourse/hush-house/issues/22,hh: understand why system CPU usage is so high,"that per-cgroup memory accounting is not free, but that seems quite expensive Maybe there's something we're missing here. Here are some other.
 that `sys` cpu is pretty tricky 🤷‍♂️ Running [`chicken-gun`](https://github.com/ cirocosta chicken-gun)'s net stress we can drive sys util to 32%.
 ",expens,other-performance-unknown,
-https://github.com/concourse/hush-house/issues/105,switch `vault` in nci to `vault-nci`,"hush-house/blob/master/deployments/with-creds/vault/README.md) page. WDYT @ cirocosta Hey @pivotal-bin-ju, > delete the pod vault/vault-0 Was the.
+https://github.com/concourse/hush-house/issues/105,switch `vault` in nci to `vault-nci`,"hush-house/blob/master/deployments/with-creds/vault/README.md) page. WDYT @ cirocosta Hey @user  > delete the pod vault/vault-0 Was the.
 ",cost,other-false_positive,
 https://github.com/concourse/hush-house/issues/94,Investigate worker recovery for k8s ungracefully restarting pods out-of-band due to high memory consumption,"decision made for the Helm chart design. Will have to chat with @ cirocosta when he is back Note: We are using anti-affinity so we.
 ",cost,other-false_positive,
@@ -838,7 +838,7 @@ allowed. I've seen (mostly AWS-only) organizations using tags for associating co
 ",bill,other-addition-tags,
 https://github.com/poseidon/typhoon/issues/336,Custom worker instance groups not referenced in GCE LB ingress,"a desired number of nodes. With `premeptible=true`, you're agreeing to pay a lower price, but Google doesn't guarantee they will have capacity.
 ",pay,cost-awareness-instance,Positive
-https://github.com/poseidon/typhoon/issues/392,Bootstrapping in existing vpc,"or other approaches. @dghubble One main reason for using existing vpc is cost effectiveness. As aws with last reinvent paved a foundation for sharing vpc.
+https://github.com/poseidon/typhoon/issues/392,Bootstrapping in existing vpc,"or other approaches. @user One main reason for using existing vpc is cost effectiveness. As aws with last reinvent paved a foundation for sharing vpc.
 ",cost,cost-awareness-networking-VPN,
 https://github.com/poseidon/typhoon/issues/416,NTP on Container Linux baremetal,"having to take a unplanned day trip to our datacetner. (We have cheap Dell ipmi cards that aren't the best). Below are the snippets.
 ",cheap,other-false_positive,
@@ -930,7 +930,7 @@ https://github.com/newrelic/demo-newrelic-instrumentation/issues/22,"New GraphQL
 ",bill,other-false_positive,
 https://github.com/USGS-Astrogeology/ale/issues/33,Implement get position from function coefficients,"Implement get position from function coefficients If it is okay to assume a polynomial for now, I can.
 ",efficient,other-false_positive,
-https://github.com/USGS-Astrogeology/ale/issues/36,Implement get velocity from function coefficients,"Implement get velocity from function coefficients @jessemapel Are the function coefficients we pass in to this function coefficients for a velocity function, or.
+https://github.com/USGS-Astrogeology/ale/issues/36,Implement get velocity from function coefficients,"Implement get velocity from function coefficients @user Are the function coefficients we pass in to this function coefficients for a velocity function, or.
 ",efficient,other-false_positive,
 https://github.com/USGS-Astrogeology/ale/issues/34,Implement get rotation from function coefficients,"Implement get rotation from function coefficients .
 ",efficient,other-false_positive,
@@ -1039,8 +1039,8 @@ https://github.com/PhilRanzato/terraform-lambda-aws/issues/19,Adds DynamoDB para
 ",bill,other-addition-billing,
 https://github.com/Azure-Samples/jmeter-aci-terraform/issues/9,Cost to run in Azure,"to run in Azure The documentation should outline how to calculate the costs in Azure for running tests. This should include costs for the Azure.
 ",cost,other-addition-cost_calculator,
-https://github.com/mdn/infra/issues/38,Setup an elastic.co account,"an annual contract. @limed I think currently, for MDN only, we're paying around $145/month for the production instance and about $15/month for.
-15/month for the stage instance, so I would say the monthly cost would not be more than $200/month. > @limed I think currently, for.
+https://github.com/mdn/infra/issues/38,Setup an elastic.co account,"an annual contract. @user I think currently, for MDN only, we're paying around $145/month for the production instance and about $15/month for.
+15/month for the stage instance, so I would say the monthly cost would not be more than $200/month. > @user I think currently, for.
 ",pay,cost-awareness-instance,
 https://github.com/mdn/infra/issues/27,Setup Prod (Read-Only PoC) instance of MDN,"Decide if we start with production-sized services (do it once, start paying or stage-size services (pay less for a month or so) -- 9/.
 ",pay,"cost-awareness-instance, cost-increase-instance",
@@ -1166,11 +1166,11 @@ CLIENT_ID', 'client_secret': 'CLIENT_SECRET', 'oauth_callback_url': 'https://jup
 ",bill,other-addition-vars,
 https://github.com/Quansight/qhub/issues/29,Adding GCP autodeployment similar to Digital Ocean Deployment,"Adding GCP autodeployment similar to Digital Ocean Deployment @ costrouc This seems to be complete..
 ",cost,other-false_positive,
-https://github.com/Quansight/qhub/issues/31,Discussion: Investigate on IO ,"https://support.hpe.com/hpesc/public/docDisplay?docId=emr_na-c02753024 cc: @yuvipanda @ costrouc I noticed this too. But I was confused since `import is; is..
+https://github.com/Quansight/qhub/issues/31,Discussion: Investigate on IO ,"https://support.hpe.com/hpesc/public/docDisplay?docId=emr_na-c02753024 cc: @user @ costrouc I noticed this too. But I was confused since `import is; is..
 ",cost,other-false_positive,
-https://github.com/Quansight/qhub/issues/102,Discuss url naming convention.,"give us a good way to list available intergrations like grafana etc. @ costrouc aktech @tylerpotts @prasunanand what do y'all think I think this naming.
+https://github.com/Quansight/qhub/issues/102,Discuss url naming convention.,"give us a good way to list available intergrations like grafana etc. @ costrouc aktech @user @prasunanand what do y'all think I think this naming.
 ",cost,other-false_positive,
-https://github.com/Quansight/qhub/issues/146,Ingress throwing time out error on GCP deployment,"morning, this is resolved without me actively changing anything. After chatting with @ costrouc and @prasunanand, it seems this happens occasionally. The current theory is that.
+https://github.com/Quansight/qhub/issues/146,Ingress throwing time out error on GCP deployment,"morning, this is resolved without me actively changing anything. After chatting with @ costrouc and @user  it seems this happens occasionally. The current theory is that.
 ",cost,other-false_positive,
 https://github.com/Quansight/qhub/issues/152,Hyphens in github usernames cause github actions to fail,"150#issuecomment-721755911). This can be closed. My bad. After chatting with @ costrouc I learned the hyphenated username issue was resolved a while ago. Closing.
 ",cost,other-false_positive,
@@ -1183,25 +1183,25 @@ https://github.com/Quansight/qhub/issues/227,QHub shutdown feature,"shut them do
 ",expens,cost-saving-unknown,
 https://github.com/Quansight/qhub/issues/231,More jupyterlab extensions (nbgitpuller),"I think that jupyterlab 3 will solve many of these issues. thanks @ costrouc for your quick answer ! > You can use a custom docker image for.
 ",cost,other-false_positive,
-https://github.com/Quansight/qhub/issues/206,ExternalDNS,"is [here](https://github.com/bitnami/charts/tree/master/bitnami/external-dns/). @ costrouc and @tylerpotts I believe this ticket will no longer be relevant once.
+https://github.com/Quansight/qhub/issues/206,ExternalDNS,"is [here](https://github.com/bitnami/charts/tree/master/bitnami/external-dns/). @ costrouc and @user I believe this ticket will no longer be relevant once.
 ",cost,other-false_positive,
 https://github.com/Quansight/qhub/issues/178,qhub configuration option for specifying terraform version,"qhub configuration option for specifying terraform version @ costrouc Do you mean that terraform version be specified in github workflow or.
 ",cost,other-false_positive,
-https://github.com/Quansight/qhub/issues/9,Kubessh integration with QHub Issues,"username etc. Gitter conversation: Rich Signell @rsignell-usgs Nov 23 06:32 @ costrouc I see that Yuvi is now working on jupyterhub-ssh instead of.
+https://github.com/Quansight/qhub/issues/9,Kubessh integration with QHub Issues,"username etc. Gitter conversation: Rich Signell @user Nov 23 06:32 @ costrouc I see that Yuvi is now working on jupyterhub-ssh instead of.
 ",cost,other-false_positive,
-https://github.com/Quansight/qhub/issues/264,"Github action `Terraform validate` failing: An argument named ""load_config_file"" is not expected here.","2: load_config_file = false An argument named ""load_config_file"" is not expected here. ping @ costrouc Hey @rsignell-usgs, thanks for reporting this. This is a bug we.
+https://github.com/Quansight/qhub/issues/264,"Github action `Terraform validate` failing: An argument named ""load_config_file"" is not expected here.","2: load_config_file = false An argument named ""load_config_file"" is not expected here. ping @ costrouc Hey @user  thanks for reporting this. This is a bug we.
 ",cost,other-false_positive,
 https://github.com/Quansight/qhub/issues/322,Define tasks to upgrade dask gateway,"get rid of helm https://github.com/Quansight/qhub-cloud/issues/224 @ costrouc You have the most info here, would you mind answering these questions? - [ ].
 ",cost,other-false_positive,
-https://github.com/Quansight/qhub/issues/167,How to pass environment variables to Dask Gateway workers?,"the Dask Gateway workers the credentials to be able to access requester pays buckets. @scottyhq has a nice example notebook showing [how he passes environment.
+https://github.com/Quansight/qhub/issues/167,How to pass environment variables to Dask Gateway workers?,"the Dask Gateway workers the credentials to be able to access requester pays buckets. @user has a nice example notebook showing [how he passes environment.
 ",pay,other-addition-billing,
-https://github.com/Quansight/qhub/issues/235,Demo with QHub and Bodo,"The spirit of Bodo is lost if we don't do multinode"". @ costrouc to talk to @dharhas and nail down requirements. This is scheduled for.
+https://github.com/Quansight/qhub/issues/235,Demo with QHub and Bodo,"The spirit of Bodo is lost if we don't do multinode"". @ costrouc to talk to @user and nail down requirements. This is scheduled for.
 ",cost,other-false_positive,
 https://github.com/Quansight/qhub/issues/349,Remove `costrouc` as the default user in qhub,"Remove ` costrouc as the default user in qhub I think a sane default would.
 ",cost,other-false_positive,
 https://github.com/Quansight/qhub/issues/216,On premise deployment of QHub,"on making QHub deployable on existing kubernetes clusters and on-prem deployments. @ costrouc I am a little bit confused about this ticket. Since this is.
 ",cost,other-false_positive,
-https://github.com/Quansight/qhub/issues/225,Fix Helm Error 403 on chart repository,"and fix via Terraform or AWS CLI? @rsignell-usgs I chatted with @ costrouc this morning, and he mentioned that he also ran into some problems.
+https://github.com/Quansight/qhub/issues/225,Fix Helm Error 403 on chart repository,"and fix via Terraform or AWS CLI? @user I chatted with @ costrouc this morning, and he mentioned that he also ran into some problems.
 ",cost,other-false_positive,
 https://github.com/Quansight/qhub/issues/289,Remove the need for users to manually install Terraform,"directly to GA actions to print the logs on the console. Per @ costrouc Use currently supported terraform version - We could install the binary to a.
 ",cost,other-false_positive,
@@ -1209,7 +1209,7 @@ https://github.com/Quansight/qhub/issues/321,Node type assignment,"have migrated
 ",cost,cost-increase-cluster,
 https://github.com/Quansight/qhub/issues/443,Qhub local deployment failed [bug],"But then you found the error ` terraform-traefik-traefik"" already exists` right? @ costrouc you found the error terraform-traefik-traefik"" already exists right Indeed. I.
 ",cost,other-false_positive,
-https://github.com/Quansight/qhub/issues/396,Add bash entry hooks,"Add bash entry hooks @tylerpotts can you detail this issue further? @ costrouc sorry, added this in wrong repo..
+https://github.com/Quansight/qhub/issues/396,Add bash entry hooks,"Add bash entry hooks @user can you detail this issue further? @ costrouc sorry, added this in wrong repo..
 ",cost,other-false_positive,
 https://github.com/Quansight/qhub/issues/461,The user can access a list of other servers [bug],"user can access a list of other servers [bug] ## Describe the bug @ costrouc mentioned that there doesn't seem to be a situation where we.
 ",cost,other-false_positive,
@@ -1219,7 +1219,7 @@ https://github.com/Quansight/qhub/issues/489,Regions are all hardcoded in qhub-c
 ",cost,other-false_positive,
 https://github.com/Quansight/qhub/issues/559,[bug] Home directory in jupyterlab is set to /home/jovyan and not /home/qhub_user,"your QHub version not aligning on what the home directory is. per @ costrouc changing the default user from `jovyan` to `qhub_user` has had unintended consequences.
 ",cost,other-false_positive,
-https://github.com/Quansight/qhub/issues/582,Create a bot to close stale issues,"com/51954708/118139679-fa18b680-b3dd-11eb-84bc-6a95404e8904.png) @tylerpotts , @aktech or @ costrouc Any comments on this?.
+https://github.com/Quansight/qhub/issues/582,Create a bot to close stale issues,"com/51954708/118139679-fa18b680-b3dd-11eb-84bc-6a95404e8904.png) @user , @user or @ costrouc Any comments on this?.
 ",cost,other-false_positive,
 https://github.com/Quansight/qhub/issues/572,GPU GCP Support,"working gpu notebook with numba that I created https://gist.github.com/ costrouc .
 ",cost,other-false_positive,
@@ -1227,27 +1227,27 @@ https://github.com/Quansight/qhub/issues/593,Validation error after upgrade from
 ",cost,other-false_positive,
 https://github.com/Quansight/qhub/issues/276,Automate releases,"Needs further discussion, specifically to specify what problems this solves and the cost of implementing it. This issue has been automatically marked as stale because.
 ",cost,other-false_positive,
-https://github.com/Quansight/qhub/issues/320,Updating stuff,"Updating stuff @ costrouc tylerpotts, @dharhas, I have created several PRs to update stuff. - Upgrade Dask-.
+https://github.com/Quansight/qhub/issues/320,Updating stuff,"Updating stuff @ costrouc tylerpotts, @user  I have created several PRs to update stuff. - Upgrade Dask-.
 ",cost,other-false_positive,
 https://github.com/Quansight/qhub/issues/391,Allow users access to lifecycle hooks in kubespawner in qhub-config.yaml,"edit the files via terminal. ## Suggestion Have an admin user group Tagging @ costrouc for his opinions > Frequently work with teams where they would like to.
 ",cost,other-false_positive,
-https://github.com/Quansight/qhub/issues/329,Write docs on Cloud testing,"t have a solution for this yet. Hence, team suggestions are welcome! @ costrouc danlester @dharhas @viniciusdc @tylerpotts @aktech any thoughts? So in what contexts would.
+https://github.com/Quansight/qhub/issues/329,Write docs on Cloud testing,"t have a solution for this yet. Hence, team suggestions are welcome! @ costrouc danlester @user @viniciusdc @user @aktech any thoughts? So in what contexts would.
 ",cost,other-false_positive,
-https://github.com/Quansight/qhub/issues/305,Separate apply operations,"cluster resources through means other than Terraform, such as Minikube or Vagrant. @ costrouc tylerpotts, @aktech, what do you guys think? I would be happy to.
+https://github.com/Quansight/qhub/issues/305,Separate apply operations,"cluster resources through means other than Terraform, such as Minikube or Vagrant. @ costrouc tylerpotts, @user  what do you guys think? I would be happy to.
 ",cost,other-false_positive,
-https://github.com/Quansight/qhub/issues/296,Agree on a release strategy,"to pump it and let me know what you think @aktech @tylerpotts @ costrouc We currently basically use github flow - https://githubflow.github.io/ The advantage.
+https://github.com/Quansight/qhub/issues/296,Agree on a release strategy,"to pump it and let me know what you think @user @tylerpotts @ costrouc We currently basically use github flow - https://githubflow.github.io/ The advantage.
 ",cost,other-false_positive,
 https://github.com/Quansight/qhub/issues/568,[bug] dask_gateway image/Dockerfile not included during initial qhub deploy,"docs.qhub.dev/en/latest/source/02_get_started/04_configuration.html#default-images. Thanks @ costrouc I have gone ahead and upgraded QHub on our CI (and also.
 ",cost,other-false_positive,
 https://github.com/Quansight/qhub/issues/460,Ease the addition of new users [enhancement],"etc. ## Suggestion This functionality could be added to a CLI fairly easily. @ costrouc may have some better suggestions for how this should be implemented. It.
 ",cost,other-false_positive,
-https://github.com/Quansight/qhub/issues/371,Adding Azure Support,"Quansight/qhub/pull/453, https://github.com/Quansight/qhub/pull/483 ? @aktech @ costrouc tylerpotts, may we close this one?.
+https://github.com/Quansight/qhub/issues/371,Adding Azure Support,"Quansight/qhub/pull/453, https://github.com/Quansight/qhub/pull/483 ? @user @ costrouc tylerpotts, may we close this one?.
 ",cost,other-false_positive,
 https://github.com/Quansight/qhub/issues/624,QHub CDSDashboards are not sharable showing forbidden,"are some example logs ``` notebook WARNING:tornado.application:Not allowing Hub user costrouchov quansight.com notebook WARNING:tornado.application:Detected unused OAuth state cookies notebook.
 ",cost,other-false_positive,
 https://github.com/Quansight/qhub/issues/478,Jupyterlab env solve takes too long [bug],"which may be something we want... certainly when deploying. I chatted with @ costrouc about this. There is currently a PR to reduce the frequency of.
 ",cost,other-false_positive,
-https://github.com/Quansight/qhub/issues/548,traefik ingress already exists[bug],"traefik ingress already exists[bug] ## Describe the bug @viniciusdc, @ costrouc ideas welcome! This behavior was reported previously in #443. Specifically a deploy.
+https://github.com/Quansight/qhub/issues/548,traefik ingress already exists[bug],"traefik ingress already exists[bug] ## Describe the bug @user  @ costrouc ideas welcome! This behavior was reported previously in #443. Specifically a deploy.
 ",cost,other-false_positive,
 https://github.com/Quansight/qhub/issues/573,Cookiecutter and the destination folder,"files to git. And doesn't solve changes to github workflows. So @ costrouc had mentioned a while back that with the newer versions of terraform.
 ",cost,other-false_positive,
@@ -1255,7 +1255,7 @@ https://github.com/Quansight/qhub/issues/273,[enhancement] Rstudio?,"using apt. 
 ",cost,other-false_positive,
 https://github.com/Quansight/qhub/issues/267,Launch Panel Apps from QHub,"how to launch Panel Apps using Qhub. ### Implication: This could replace QAdmin. @ costrouc to detail implementation 😄 This issue has been automatically marked as stale because.
 ",cost,other-false_positive,
-https://github.com/Quansight/qhub/issues/190,Single sign on for web apps,"implement it? Thanks :) @laisbsc, This is something that has been discussed with @ costrouc and @dharhas in the past, they would probably have a better idea.
+https://github.com/Quansight/qhub/issues/190,Single sign on for web apps,"implement it? Thanks :) @user  This is something that has been discussed with @ costrouc and @user in the past, they would probably have a better idea.
 ",cost,other-false_positive,
 https://github.com/Quansight/qhub/issues/114,cookiecuter does not check if prefect is true/false only is defined,"will automatically be closed in 7 days if no further activity occurs. @ costrouc have we solved this problem?.
 ",cost,other-false_positive,
@@ -1265,7 +1265,7 @@ https://github.com/Quansight/qhub/issues/309,conda-store image specification [en
 ",cost,other-false_positive,
 https://github.com/Quansight/qhub/issues/237,Enable a way to text chat with other folks logged in?,"user-images.githubusercontent.com/1740337/104471784-41ef1480-5589-11eb-82f2-e52cfec535b8.png) @ costrouc okay so I get why ""talk"" won't work. Makes sense. But.
 ",cost,other-false_positive,
-https://github.com/Quansight/qhub/issues/506,Create documentation for backing up cluster manually,"has to be created for this to work: https://gist.github.com/ costrouc 09dab085badd5ab1bc7b62ec8dee4575 @tylerpotts created a PR to address this issue. Docs here https://.
+https://github.com/Quansight/qhub/issues/506,Create documentation for backing up cluster manually,"has to be created for this to work: https://gist.github.com/ costrouc 09dab085badd5ab1bc7b62ec8dee4575 @user created a PR to address this issue. Docs here https://.
 ",cost,other-false_positive,
 https://github.com/Quansight/qhub/issues/294,Schedule time with existing users to upgrade local testing,"that conda store doesn't currently garbage collect (will double check with @ costrouc If that's still the case, the shared NFS volume can fill.
 ",cost,other-false_positive,
@@ -1275,17 +1275,17 @@ https://github.com/Quansight/qhub/issues/11,Group/User wise cloud IAM permission
 ",cost,other-false_positive,
 https://github.com/Quansight/qhub/issues/676,"Docs not built properly, not showing all pages?","github.com/Quansight/qhub/blob/main/docs/source/04_how_to_guides/7_qhub_gpu.md As @ costrouc said: >There is a latest and stable version of our docs. We.
 ",cost,other-false_positive,
-https://github.com/Quansight/qhub/issues/630,Document the changes necessary for deploying qhub on Windows Subsytem for Linux (WSL2) [documentation],"layer of virtualization. @utabe is there an associated PR with this issue? @ costrouc None yet. I've been distracted with the gcp issues and some.
+https://github.com/Quansight/qhub/issues/630,Document the changes necessary for deploying qhub on Windows Subsytem for Linux (WSL2) [documentation],"layer of virtualization. @user is there an associated PR with this issue? @ costrouc None yet. I've been distracted with the gcp issues and some.
 ",cost,other-false_positive,
-https://github.com/Quansight/qhub/issues/100,Use namespaces with qhub actions to allow for dev/staging/prod,"the state is maintained and duplicate resources are not created. cc @dharhas @ costrouc tylerpotts This would also require that we output three `IP`s for.
+https://github.com/Quansight/qhub/issues/100,Use namespaces with qhub actions to allow for dev/staging/prod,"the state is maintained and duplicate resources are not created. cc @user @ costrouc tylerpotts This would also require that we output three `IP`s for.
 ",cost,other-false_positive,
 https://github.com/Quansight/qhub/issues/658,.pem integration [enhancement],"cert has to be installed in the jupyterlab instance. Is this correct @ costrouc Was looking at the documentation of the class https://github.com/sassoftware/.
 ",cost,other-false_positive,
 https://github.com/Quansight/qhub/issues/272,Use JupyterSSH keys on QHub login,"to submit a long-running job today, what approach should I use? @ costrouc helped me with a method that worked back in November, but I'.
 ",cost,other-false_positive,
-https://github.com/Quansight/qhub/issues/686,allow clearml services to be configurable [enhancement],"try to implement this with @viniciusdc Based on conversation with @viniciusdc and @ costrouc the records can be CNAME and should point to the same IP.
+https://github.com/Quansight/qhub/issues/686,allow clearml services to be configurable [enhancement],"try to implement this with @user Based on conversation with @user and @ costrouc the records can be CNAME and should point to the same IP.
 ",cost,other-false_positive,
-https://github.com/Quansight/qhub/issues/643,Upgrade terraform version to 1.0.0,"QHub now uses terraform 1.0 for all QHub runs. @danlester @tylerpotts @ costrouc As discussed i have performed below test and analysis. Please correct me.
+https://github.com/Quansight/qhub/issues/643,Upgrade terraform version to 1.0.0,"QHub now uses terraform 1.0 for all QHub runs. @user @tylerpotts @ costrouc As discussed i have performed below test and analysis. Please correct me.
 ",cost,other-false_positive,
 https://github.com/Quansight/qhub/issues/542,Jupyterlab Terminal reporting errors on start,"all the various settings are interacting. Resolved in 0.3.7, thanks @ costrouc .
 ",cost,other-false_positive,
@@ -1295,7 +1295,7 @@ https://github.com/Quansight/qhub/issues/729,[bug] Jupyterlab instances die 15 m
 ",cost,cost-saving-instance,
 https://github.com/Quansight/qhub/issues/728,[bug] dask-scheduler dies and kills cluster,"what the problem is. We have been having difficulty getting a computationally expensive process running on a dask cluster. Launching a dask-cluster from a.
 ",expens,other-false_positive,
-https://github.com/Quansight/qhub/issues/578,Openstack Provider for QHub,"way to spin up openstack clusters. Advice here would be welcome @ChrisLayton. @ costrouc the most common way to ""kick the tires"" on Openstack is via [.
+https://github.com/Quansight/qhub/issues/578,Openstack Provider for QHub,"way to spin up openstack clusters. Advice here would be welcome @user  @ costrouc the most common way to ""kick the tires"" on Openstack is via [.
 ",cost,other-false_positive,
 https://github.com/Quansight/qhub/issues/569,Documentation for onboarding users to QHub (user focused docs),"expanding on this. Actually, it just occurred to me that this is @ costrouc original issue and I didn't cover all those things in my.
 ",cost,other-false_positive,
@@ -1305,15 +1305,15 @@ https://github.com/Quansight/qhub/issues/595,[enhancement] Set `min_node: 0` for
 ",cost,cost-saving-cluster,
 https://github.com/Quansight/qhub/issues/570,Cost Monitoring ,"come up a lot. Would like to have some way to assess costs of specific users and groups. Currently the most promising one is [kubecost](.
 ",cost,other-false_positive,
-https://github.com/Quansight/qhub/issues/454,Deploy Dashboards for multiple user types including non-jupyterhub users,"the Panel app be served at any URL? Is this possible? @danlester @ costrouc would like your thoughts on how we accomplish this. User C: Access.
+https://github.com/Quansight/qhub/issues/454,Deploy Dashboards for multiple user types including non-jupyterhub users,"the Panel app be served at any URL? Is this possible? @user @ costrouc would like your thoughts on how we accomplish this. User C: Access.
 ",cost,other-false_positive,
-https://github.com/Quansight/qhub/issues/651,Create PR template for QHub development,"purpose? > @viniciusdc could you elaborate more on this issue and the purpose? @ costrouc What do you think? This issue has been automatically marked as stale.
+https://github.com/Quansight/qhub/issues/651,Create PR template for QHub development,"purpose? > @user could you elaborate more on this issue and the purpose? @ costrouc What do you think? This issue has been automatically marked as stale.
 ",cost,other-false_positive,
 https://github.com/Quansight/qhub/issues/99,PV backups / snapshots,"1-17-feature-cis-volume-snapshot-beta/ Based on a conversation with @ costrouc I'm going to investigate creating a kubernetes job to tarball the.
 ",cost,other-false_positive,
 https://github.com/Quansight/qhub/issues/40,Use jupyterhub as a single sign-on authentication provider,"issue and we need to look into if this solved the problem. @ costrouc danlester was that solved? If not what could be the best way.
 ",cost,other-false_positive,
-https://github.com/Quansight/qhub/issues/812,Docker builds failing due to apt/apt-get changes,"maybe we need to upgrade to the latest debian repos or something. @ costrouc Thanks for fixing this @danlester. We definitely will have to move to.
+https://github.com/Quansight/qhub/issues/812,Docker builds failing due to apt/apt-get changes,"maybe we need to upgrade to the latest debian repos or something. @ costrouc Thanks for fixing this @user  We definitely will have to move to.
 ",cost,other-false_positive,
 https://github.com/Quansight/qhub/issues/717,Source environments from external files,"current experience of deploying and then waiting and hoping the environment solves. @ costrouc I'd be eager for your thoughts on this idea. Btw when.
 ",cost,other-false_positive,
@@ -1323,11 +1323,11 @@ https://github.com/Quansight/qhub/issues/815,Use cloud provider which charges by
 create 35 GB machine to avoid disk space issues. Although we would pay for image storage monthly, which should be less than $4 monthly, but.
 do this, but I need some access to Quanisght's AWS account. @ costrouc Alternatively, create an IAM user with Permission Amazon EC2FullAccess and generate Access.
 ",cheap,"cost-saving-storage, cost-awareness-storage",
-https://github.com/Quansight/qhub/issues/767,[bug] Running QHub within home directory will delete files in home directory,"on cookiecutter Assigning @iameskild. Please comment on the issue to give updates. @ costrouc tylerpotts PR submitted. (apologies for the delay, client work has consumed most.
+https://github.com/Quansight/qhub/issues/767,[bug] Running QHub within home directory will delete files in home directory,"on cookiecutter Assigning @user  Please comment on the issue to give updates. @ costrouc tylerpotts PR submitted. (apologies for the delay, client work has consumed most.
 ",cost,other-false_positive,
 https://github.com/Quansight/qhub/issues/701,[enhancement] Avoid returning 404,"enhancement] Avoid returning 404 ## Description @ costrouc mentioned it would be nice to never return a 404 but instead.
 ",cost,other-false_positive,
-https://github.com/Quansight/qhub/issues/689,[bug] general pods running on non-general nodes,"39). This is an important issue because it can cause increased cloud costs due to scheduling on possibly oversized nodes. @aktech will answer this Hi @.
+https://github.com/Quansight/qhub/issues/689,[bug] general pods running on non-general nodes,"39). This is an important issue because it can cause increased cloud costs due to scheduling on possibly oversized nodes. @user will answer this Hi @.
 ",cost,cost-saving-cluster,
 https://github.com/Quansight/qhub/issues/654,[bug] 500 : Internal Server Error when starting the server,"us the logs or a screenshot when there is that issue. Thanks @ costrouc I had not used k9s before. I've now set up my.
 ",cost,other-false_positive,
@@ -1335,14 +1335,14 @@ https://github.com/Quansight/qhub/issues/622,Hiding envs after they are removed.
 ",cost,other-false_positive,
 https://github.com/Quansight/qhub/issues/598,Dask gateway cluster object and client not reporting same node count,"automatically be closed in 7 days if no further activity occurs. hi @ costrouc Is this issue resolved? This issue has been automatically marked as stale.
 ",cost,other-false_positive,
-https://github.com/Quansight/qhub/issues/562,Gitlab integration tests,"for getting this working. Does this move this issue to done? Hi @ costrouc currently by @danlester comment we do have the GitHub integrations tests done,.
+https://github.com/Quansight/qhub/issues/562,Gitlab integration tests,"for getting this working. Does this move this issue to done? Hi @ costrouc currently by @user comment we do have the GitHub integrations tests done,.
 ",cost,other-false_positive,
-https://github.com/Quansight/qhub/issues/547,Steps to perform local testing [documentation],"testing sounds very appealing. I am also curious to hear @dharhas and @ costrouc opinions on this. This issue has been automatically marked as stale because.
+https://github.com/Quansight/qhub/issues/547,Steps to perform local testing [documentation],"testing sounds very appealing. I am also curious to hear @user and @ costrouc opinions on this. This issue has been automatically marked as stale because.
 ",cost,other-false_positive,
 https://github.com/Quansight/qhub/issues/538,When conda-store can store no more [bug],"of the failure to create environments is not trivial and space is cheap relative to our time at least). So perhaps 200GB is a sensible.
 the next versions of [conda-store](https://github.com/Quansight/conda-store) @ costrouc This issue has been automatically marked as stale because there was no.
 ",cheap,other-false_positive,
-https://github.com/Quansight/qhub/issues/518,Deployment Issues on Existing Kubernetes cluster,"impossible, but more than I care to customize at this point. @aktech @ costrouc Any thoughts on this? This issue has been automatically marked as stale.
+https://github.com/Quansight/qhub/issues/518,Deployment Issues on Existing Kubernetes cluster,"impossible, but more than I care to customize at this point. @user @ costrouc Any thoughts on this? This issue has been automatically marked as stale.
 ",cost,other-false_positive,
 https://github.com/Quansight/qhub/issues/481,Conda-store storage pvc/pv gets stuck when upgrading,"store deployment/pv/pvcs and how they do not upgrade smoothly HI @ costrouc do we have more information or PR's associated with this? I'.
 ",cost,other-false_positive,
@@ -1362,13 +1362,13 @@ https://github.com/Quansight/qhub/issues/310,linuxbrew store [enhancement],"not 
 ",cost,other-false_positive,
 https://github.com/Quansight/qhub/issues/828,"[bug] Available IPs on AWS consumed too quickly, limits number of dask-worker nodes that can spin up","10.0.0.0/8` and use `4` bits for the subnet. @ costrouc That sounds like a good idea! I'll submit a PR with.
 ",cost,other-false_positive,
-https://github.com/Quansight/qhub/issues/113,Include an optional version field within qhub-config.yaml to pin qhub version used for rendering,"will automatically be closed in 7 days if no further activity occurs. @ costrouc tylerpotts, @iameskild, I think this would be a great feature, and I.
+https://github.com/Quansight/qhub/issues/113,Include an optional version field within qhub-config.yaml to pin qhub version used for rendering,"will automatically be closed in 7 days if no further activity occurs. @ costrouc tylerpotts, @user  I think this would be a great feature, and I.
 ",cost,other-false_positive,
-https://github.com/Quansight/qhub/issues/97,Testing criteria for new deployments,"on automating the dask_gateway testing and checking for creation of conda environments. @ costrouc I think @danlester is currently working on a solution to the dask-.
+https://github.com/Quansight/qhub/issues/97,Testing criteria for new deployments,"on automating the dask_gateway testing and checking for creation of conda environments. @ costrouc I think @user is currently working on a solution to the dask-.
 ",cost,other-false_positive,
-https://github.com/Quansight/qhub/issues/62,Dask workers should run with same permissions as the user that launches the dask gateway,"as root allows them to make changes to environments on conda-store. @ costrouc Have we already adressed this feature? @viniciusdc, This has not yet been.
+https://github.com/Quansight/qhub/issues/62,Dask workers should run with same permissions as the user that launches the dask gateway,"as root allows them to make changes to environments on conda-store. @ costrouc Have we already adressed this feature? @user  This has not yet been.
 ",cost,other-false_positive,
-https://github.com/Quansight/qhub/issues/12,Cloud IAM Permission injection from the config,"no further activity occurs. IIUC, I think this would be useful. @aktech @ costrouc Have we fixed that within the latest releases? No, it hasn't.
+https://github.com/Quansight/qhub/issues/12,Cloud IAM Permission injection from the config,"no further activity occurs. IIUC, I think this would be useful. @user @ costrouc Have we fixed that within the latest releases? No, it hasn't.
 ",cost,other-false_positive,
 https://github.com/Quansight/qhub/issues/32,Documentation on gpu worker nodes for dask-workers/jupyterlab,"Documentation on gpu worker nodes for dask-workers/jupyterlab per @ costrouc there's a bug where when you schedule a GPU resource all.
 ",cost,other-false_positive,
@@ -1380,21 +1380,21 @@ https://github.com/Quansight/qhub/issues/765,[enhancement] add option to specify
 ",cost,other-false_positive,
 https://github.com/Quansight/qhub/issues/814,Make zero to jupyterhub configuration overidable,"closed because it has been stalled for 7 days with no activity. @ costrouc Would you be happy for me to reinstate this (and implement it)?.
 ",cost,other-false_positive,
-https://github.com/Quansight/qhub/issues/831,[bug] Config to use the firstuseauthentificator in qhub,"instance must be a type, but 'firstuseauthenticator.FirstUseAuthenticator' could not be imported ``` @ costrouc Any thoughts on this matter? Hi @viniciusdc Sorry for not being clear,.
+https://github.com/Quansight/qhub/issues/831,[bug] Config to use the firstuseauthentificator in qhub,"instance must be a type, but 'firstuseauthenticator.FirstUseAuthenticator' could not be imported ``` @ costrouc Any thoughts on this matter? Hi @user Sorry for not being clear,.
 ",cost,other-false_positive,
 https://github.com/Quansight/qhub/issues/875,"[documentation] Fix Vale errors, warnings and suggestions","171:64 warning Avoid using 'will'. Google.Will ​ ``` </details> #### ` docs/source/admin_guide/ cost md` <details> <summary>Vale Errors</summary> ```sh 1:3 warning Use 'Google.
 ",cost,other-false_positive,
 https://github.com/Quansight/qhub/issues/892,[enhancement] Add better metadata to the Docker images,"4111162873?check_suite_focus=true#step:5:32 Who should we add as `author`? @ costrouc Maybe the QHub development team? - do we have a qhub email or.
 ",cost,other-false_positive,
-https://github.com/Quansight/qhub/issues/789,Launching spark clusters in QHub,"because it has been stalled for 7 days with no activity. @tylerpotts @ costrouc can you please confirm the status of this? the linked issue seems.
+https://github.com/Quansight/qhub/issues/789,Launching spark clusters in QHub,"because it has been stalled for 7 days with no activity. @user @ costrouc can you please confirm the status of this? the linked issue seems.
 ",cost,other-false_positive,
 https://github.com/Quansight/qhub/issues/980,How to handle additional domains or ports in the case of minio object storage,"this anyways Blocker for https://github.com/Quansight/qhub/issues/798 Hi @ costrouc based on my latest research it seems that there is no standard.
 ",cost,other-false_positive,
-https://github.com/Quansight/qhub/issues/978,Change from kubernetes-alpha provider to kubernetes provier,"step is to test these changes by deploying qhub on Azure. @danlester, @ costrouc do you see any unintended consequences of these changes? It's helpful.
+https://github.com/Quansight/qhub/issues/978,Change from kubernetes-alpha provider to kubernetes provier,"step is to test these changes by deploying qhub on Azure. @user  @ costrouc do you see any unintended consequences of these changes? It's helpful.
 ",cost,other-false_positive,
 https://github.com/Quansight/qhub/issues/935,Help Installing QHub on existing EKS (AWS) Cluster & Missing Local Testing Docs.,"website (through Cloudflare for eg.) to correctly expose our AWS EKS cluster? @ costrouc aktech Are these the latest local install docs? Installing on minikube: https://.
 ",cost,other-false_positive,
-https://github.com/Quansight/qhub/issues/921,Remove the default 'users' group?,"For admins, it increases flexibility over groups and file sharing. Any thoughts @ costrouc danlester @costrouc how do you feel about adding this issue to the.
+https://github.com/Quansight/qhub/issues/921,Remove the default 'users' group?,"For admins, it increases flexibility over groups and file sharing. Any thoughts @ costrouc danlester @user how do you feel about adding this issue to the.
 ",cost,other-false_positive,
 https://github.com/Quansight/qhub/issues/838,Auth0 Depreciation Warning - Upgrade from Node.js 8 to Node.js 12,"our codebases, only settings in Auth0 to update. I guess you and @ costrouc are admins, I'll let you have a look. I believe this.
 ",cost,other-false_positive,
@@ -1406,13 +1406,13 @@ https://github.com/Quansight/qhub/issues/1049,[enhancement] clear out stages bef
 ",cost,other-false_positive,
 https://github.com/Quansight/qhub/issues/1067,[bug] Remove `jovyan` user from Jupyter Dockerfile,"with their own UIDs. This would be a reversion to older behavior. @ costrouc danlester about this, haven't we moved to keycloak for managing user.
 ",cost,other-false_positive,
-https://github.com/Quansight/qhub/issues/1075,Shared folders not mounting (as if no groups) [bug],"if needed @viniciusdc The user was in the `developer` group, for example. @ costrouc Are you saying that I shouldn't expect being a member of.
+https://github.com/Quansight/qhub/issues/1075,Shared folders not mounting (as if no groups) [bug],"if needed @user The user was in the `developer` group, for example. @ costrouc Are you saying that I shouldn't expect being a member of.
 ",cost,other-false_positive,
 https://github.com/Quansight/qhub/issues/1104,[BUG] - conda-store image does not upgrade correctly to 0.4,"main ### Compute environment AWS ### Integrations _No response_ ### Anything else? _No response_ From @ costrouc This is due to conda-store no longer needing to be built.
 ",cost,other-false_positive,
 https://github.com/Quansight/qhub/issues/865,QHub Extension Mechanism,"with merging something like what's below in as a first step? @ costrouc yaml extensions: - name: <helm-deployment-name> chart: <path-to-chart-url> version: <.
 ",cost,other-false_positive,
-https://github.com/Quansight/qhub/issues/1125,[ENH] - Add container registries for other cloud providers,"sure if that has changed. Thanks for the follow up @danlester and @ costrouc It sounds like we might just need to do some research to.
+https://github.com/Quansight/qhub/issues/1125,[ENH] - Add container registries for other cloud providers,"sure if that has changed. Thanks for the follow up @user and @ costrouc It sounds like we might just need to do some research to.
 ",cost,other-false_positive,
 https://github.com/Quansight/qhub/issues/1126,Upgrade conda-store v0.3.10 and simplify specification of image,"were left with multiple locations where the conda-store image was specified. @ costrouc s attempt to upgrade conda-store from v0.3.9 to v0..
 ",cost,other-false_positive,
@@ -1422,7 +1422,7 @@ https://github.com/Quansight/qhub/issues/1157,[ENH] - Cleanup terminal prompt,"a
 ",cost,other-false_positive,
 https://github.com/Quansight/qhub/issues/1182,[BUG] - Minio for Conda-Store needs some way of specifying storage,"threshold. (cmd.StorageFull) │ │ 1: cmd/data-usage.go:56:cmd.storeDataUsageInBackend() ``` Hi @ costrouc it seems we can pass an existing PVC to Minio by https://.
 ",cost,other-false_positive,
-https://github.com/Quansight/qhub/issues/1226,Add `dev` flag to qhub CLI,"to qhub CLI _This is a follow up from a discussion that @ costrouc tonyfast, @viniciusdc and I had a few weeks ago._ During the.
+https://github.com/Quansight/qhub/issues/1226,Add `dev` flag to qhub CLI,"to qhub CLI _This is a follow up from a discussion that @ costrouc tonyfast, @user and I had a few weeks ago._ During the.
 ",cost,other-false_positive,
 https://github.com/Quansight/qhub/issues/1223,[BUG] - Monitoring Health Check occurs even when monitoring disabled,"will be needed by future features we develop in qhub. Especially around cost monitoring and determining if a user has permissions. I've added a.
 ",cost,other-addition-cost_calculator,
@@ -1434,27 +1434,27 @@ https://github.com/Quansight/qhub/issues/793,Add K8s logging in the CI when QHub
 ",cost,other-false_positive,
 https://github.com/Quansight/qhub/issues/819,Remove local helm chart from prefect and follow model as in jupyterhub service,"helm chart from prefect and follow model as in jupyterhub service Hi @ costrouc I've separated this into another issue because I wanted to have.
 ",cost,other-false_positive,
-https://github.com/Quansight/qhub/issues/829,Set of green/red signals after a QHub Deployment,"kind of user command or prompt would be useful IMO. cc @tylerpotts @ costrouc With the current stages structure, we now have a better way to.
+https://github.com/Quansight/qhub/issues/829,Set of green/red signals after a QHub Deployment,"kind of user command or prompt would be useful IMO. cc @user @ costrouc With the current stages structure, we now have a better way to.
 ",cost,other-false_positive,
-https://github.com/Quansight/qhub/issues/858,[enhancement]  Add the black labextension,"one of my defined conda environments. Is this right @tylerpotts, @aktech or @ costrouc .
+https://github.com/Quansight/qhub/issues/858,[enhancement]  Add the black labextension,"one of my defined conda environments. Is this right @user  @user or @ costrouc .
 ",cost,other-false_positive,
 https://github.com/Quansight/qhub/issues/862,Add xvfb to default image so that pyvista can work,"run `pyvista.start_xvfb()`. We currently have mesa already installed but not xvfb. @ costrouc what's the status on this?.
 ",cost,other-false_positive,
 https://github.com/Quansight/qhub/issues/872,[enhancement] Edit QHub's timezone,"giving the option to change the default timezone as needed c.c. @ costrouc what are your thoughts on this?.
 ",cost,other-false_positive,
-https://github.com/Quansight/qhub/issues/913,[enhancement] Enable custom resource options in qhub-config,"add any **additional context** or valuable considerations to this. C.c @dharhas @ costrouc tylerpotts @Adam-D-Lewis For this issue I'd like to discuss.
+https://github.com/Quansight/qhub/issues/913,[enhancement] Enable custom resource options in qhub-config,"add any **additional context** or valuable considerations to this. C.c @user @ costrouc tylerpotts @user For this issue I'd like to discuss.
 ",cost,other-false_positive,
-https://github.com/Quansight/qhub/issues/916,Scaling Dask Clusters with Multiple Users,"tool like [k9s](https://k9scli.io/) is helpful in these situations. @iameskild @ costrouc is our log retriever thing working yet? edit: I guess not. https://.
+https://github.com/Quansight/qhub/issues/916,Scaling Dask Clusters with Multiple Users,"tool like [k9s](https://k9scli.io/) is helpful in these situations. @user @ costrouc is our log retriever thing working yet? edit: I guess not. https://.
 ",cost,other-false_positive,
 https://github.com/Quansight/qhub/issues/924,[enhancement] Development and production user interfaces,"and research without any limitation. The drawback is that it implies a cost for the cloud provider. Alternatively, we could imagine a `sandbox.qhub.dev`.
 ",cost,cost-awareness-provider,
-https://github.com/Quansight/qhub/issues/1198,[BUG] - Dask schedulers has health check issues,"response_ @ychen-ot Are you planning to use Dask for your deployment. @ costrouc where are we on making things like Dask/Dask-Gateway optional via.
+https://github.com/Quansight/qhub/issues/1198,[BUG] - Dask schedulers has health check issues,"response_ @user Are you planning to use Dask for your deployment. @ costrouc where are we on making things like Dask/Dask-Gateway optional via.
 ",cost,other-false_positive,
 https://github.com/Quansight/qhub/issues/965,[enhancement]  jupyter-resource-usage,"the longest time I thought this was a notebook only extension. Definitely @ costrouc might be worth looking at adding <https://github.com/jtpio/jupyterlab-system-.
 ",cost,other-false_positive,
 https://github.com/Quansight/qhub/issues/1034,[documentation] Add to docs limitations of CDSDashboards for 0.4.0 release,"cdsdashboards. This issue will be properly address in 0.4.x. Hey @ costrouc I don't recall what these limitations were? Perhaps we can include.
 ",cost,other-false_positive,
-https://github.com/Quansight/qhub/issues/1228,[BUG] - error deploying QHub on AWS on 0.4,"loaded the wrong credentials before... but I am not sure c.c. @ costrouc iameskild as they have more experience with AWS then me @viniciusdc Thanks.
+https://github.com/Quansight/qhub/issues/1228,[BUG] - error deploying QHub on AWS on 0.4,"loaded the wrong credentials before... but I am not sure c.c. @ costrouc iameskild as they have more experience with AWS then me @user Thanks.
 ",cost,other-false_positive,
 https://github.com/Quansight/qhub/issues/1209,[BUG] - GCP GPU support,"hostPath type check failed: /home/kubernetes/bin/nvidia is not a directory ``` @ costrouc I tested the version bump for Jupyterhub, no problems so far. Seems.
 ",cost,other-false_positive,
@@ -1472,7 +1472,7 @@ https://github.com/Quansight/qhub/issues/1024,[enhancement] ForwardAuth OAuth pr
 ",cost,other-false_positive,
 https://github.com/Quansight/qhub/issues/1247,Meta issue for Conda-Store user experience ,"yaml` vs `conda-store`. I'll message you on the OGC slack. @ costrouc any updates on what has been decided?.
 ",cost,other-false_positive,
-https://github.com/Quansight/qhub/issues/634,Create Personas for QHub,"a0e30cf0d3d64775afafbb15430ea010?v=701f1cb6def940a5b639768c7bf89706 Made some significant updates to include more comprehensive info - @ costrouc dharhas @kcpevey [might want to have a look ](https://www.notion.so/.
+https://github.com/Quansight/qhub/issues/634,Create Personas for QHub,"a0e30cf0d3d64775afafbb15430ea010?v=701f1cb6def940a5b639768c7bf89706 Made some significant updates to include more comprehensive info - @ costrouc dharhas @user [might want to have a look ](https://www.notion.so/.
 ",cost,other-false_positive,
 https://github.com/Quansight/qhub/issues/1145,[ENH] - Simplify Docker images,"means that adding/removing features requires a new docker image and is costlier than it needs to be to create. it could be practical to.
 ",cost,other-false_positive,
@@ -1503,9 +1503,9 @@ https://github.com/Quansight/qhub/issues/1315,[ENH] - Add Infracost to QHub CI a
 ",cost,other-addition-cost_calculator,
 https://github.com/Quansight/qhub/issues/1328,[DOC] - Document QHub's CI & CLI Infracost integration,"DOC] - Document QHub's CI & CLI Infracost integration ## Description Document https://github.com/Quansight/qhub/issues/1315 Acceptance criteria: -.
 ",cost,other-addition-docs,
-https://github.com/Quansight/qhub/issues/1325,[BUG] - Recent release super broken,"we need to do another minor release properly packaging the code. cc @ costrouc iameskild @viniciusdc I don't think `kbatch` is released in `0.4..
+https://github.com/Quansight/qhub/issues/1325,[BUG] - Recent release super broken,"we need to do another minor release properly packaging the code. cc @ costrouc iameskild @user I don't think `kbatch` is released in `0.4..
 ",cost,other-false_positive,
-https://github.com/Quansight/qhub/issues/1012,[bug] Unable to connect to dashboard using Dask-Gateway and Labextension,"and it is important for demos. How difficult is the fix? @viniciusdc @ costrouc Personally I don't understand why that feature isn't working. When.
+https://github.com/Quansight/qhub/issues/1012,[bug] Unable to connect to dashboard using Dask-Gateway and Labextension,"and it is important for demos. How difficult is the fix? @user @ costrouc Personally I don't understand why that feature isn't working. When.
 ",cost,other-false_positive,
 https://github.com/Quansight/qhub/issues/1318,OGC Disaster Pilot 2022 Sprint Meta Issue,"vacation the next 2 weeks but will try and respond. Actually the infracost work #1315 needs to be part of this sprint as well..
 ",cost,other-refactor-cost_calculator,
@@ -1582,7 +1582,7 @@ https://github.com/GoogleCloudPlatform/cloud-foundation-fabric/issues/658,00-boo
 ",bill,other-bug_fix-billing,
 https://github.com/equinix/terraform-metal-anthos-on-vsphere/issues/15,Implement code to clean up assigned IP blocks,"are converted to layer to give back the IPs. This would reduce costs 0.04 per hour!!) and more importantly give back the IPs to.
 ",cost,cost-saving-unknown,
-https://github.com/equinix/terraform-metal-anthos-on-vsphere/issues/21,Change router to c3.small.x86 ,"change to ubuntu 18.04. This is more right sized and reduces costs by $0.50 per hour. We can borrow heavily from @c0dyhi11 existing.
+https://github.com/equinix/terraform-metal-anthos-on-vsphere/issues/21,Change router to c3.small.x86 ,"change to ubuntu 18.04. This is more right sized and reduces costs by $0.50 per hour. We can borrow heavily from @user existing.
 ",cost,cost-saving-instance,
 https://github.com/equinix/terraform-metal-anthos-on-vsphere/issues/91,Create a CI/CD workflow for contributions and periodic testing of the default branch,"travis plus some shell scripts would be sufficient. * how will you handle billing will packet provide an account and org that we can use? * how.
 ",bill,other-refactor-billing,
