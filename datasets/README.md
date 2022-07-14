@@ -1,6 +1,6 @@
 ## Description
 
-Here you can find all the data sets that we have generated throughout our research. Personal identifiable information such as the author, and any other user data fields  have been removed from both commits and issues. Moreover, we have substituted all usernames inside the body of commits and issues with a default term: "@user".  
+Here you can find all the data sets that we have generated throughout our research. Personal identifiable information such as author and username tags have been removed or replaced in all local versions of our CSVs and JSONs. The original authors can still be identified, but not directly from our data set.
 
 ## Contents
 
